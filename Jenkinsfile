@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                /bin/sh '/usr/bin/ant'
+                sh '/usr/bin/ant'
             }
         }
     }
