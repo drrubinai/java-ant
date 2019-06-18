@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-                ant 
+                sh 'ant'
             }
         }
     }
